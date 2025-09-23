@@ -42,7 +42,10 @@ export function Dashboard() {
           <div className="user relative mt-100 m-2 md:m-6 lg:m-8 flex flex-between items-end gap-2 md:gap-6 lg:gap-10 z-10">
             <div className="flex gap-4 md:gap-6 lg:gap-10 items-end">
               <img src="profilePic.png" className="w-16 h-16 md:w-30 md:h-30 lg:w-40 lg:h-40 bg-[#97ccc9] rounded-md border border-4 md:border-6 lg:border-8 border-white boo"></img>
-              <p className="text-lg md:text-2xl lg:text-4xl lg:mb-3 hover:scale-105">Qiandai Huang</p>
+              <div className="">
+                <p className="text-lg md:text-2xl lg:text-4xl  hover:scale-105">Qiandai Huang</p>
+                <p className="text-[#5e4b3b] text-[0.4rem] md:text-[0.5rem] lg:text-[0.8rem]">vote me #1 for copres & treasurer !</p>
+              </div>
             </div>
             <div className="flex justify-end ml-auto gap-2">
               <button className="hover:scale-[1.01] event text-[#4fb0a8] border border-[#4fb0a8] rounded-sm text-[0.7rem] lg:text-[1rem] px-2 py-1 ml-auto lg:mb-4" >
