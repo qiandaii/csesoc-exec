@@ -1,7 +1,7 @@
 
 export function BannerPattern() {
   return (
-    <div className="text-[0.3em] text-white w-80 p-2">
+    <div className="text-[0.25rem] lg:text-[0.3em] md:mt-0 lg:mt-0 text-white lg:w-80 w-50 p-2 mt-35">
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠤⠒⠒⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⢟⣇⠤⠒⠂⠤⡀⠀⢰⠃⠀⠀⣀⠄⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
