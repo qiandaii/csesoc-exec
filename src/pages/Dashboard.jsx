@@ -14,6 +14,14 @@ export function Dashboard() {
   const [ section, setSection ] = useState(1)
   const [ starHover, setStarHover ] = useState(false)
 
+  function navEndPage() {
+    if (section === 5) {
+      setSection(1)
+    } else {
+      setSection(5)
+    }
+  }
+
   useEffect(() => {
     if (section === 5 && starHover === false) {
       setStarHover(true)
@@ -43,7 +51,7 @@ export function Dashboard() {
               <button className="hover:scale-105 event text-[#4fb0a8] border border-[#4fb0a8] rounded-sm text-[0.7rem] lg:text-[1rem] px-2 py-1 ml-auto lg:mb-4" 
                 onMouseEnter={() => setStarHover(true)}
                 onMouseLeave={() => setStarHover(false)}
-                onClick={() => setSection(5)}>
+                onClick={() => navEndPage()}>
                 { starHover ? "★" : "☆" }
               </button>
             </div>
