@@ -44,7 +44,7 @@ export function Dashboard() {
               <img src="profilePic.png" className="w-16 h-16 md:w-30 md:h-30 lg:w-40 lg:h-40 bg-[#97ccc9] rounded-md border border-4 md:border-6 lg:border-8 border-white boo"></img>
               <div className="">
                 <p className="text-lg md:text-2xl lg:text-4xl  hover:scale-105">Qiandai Huang</p>
-                <p className="text-[#5e4b3b] text-[0.4rem] md:text-[0.5rem] lg:text-[0.8rem]">vote me #1 for copres & treasurer !</p>
+                <p className="text-[#5e4b3b] text-[0.4rem] md:text-[0.5rem] lg:text-[0.6rem]">vote me #1 for copres & treasurer !</p>
               </div>
             </div>
             <div className="flex justify-end ml-auto gap-2">
@@ -66,10 +66,10 @@ export function Dashboard() {
         
         <div className="w-full lg:h-[65%] h-full flex flex-col md:flex-row lg:flex-row items-center gap-2">
           <div className="component rounded-sm w-full mx-2 h-[10%] md:w-[30%] md:h-[90%] lg:w-[27%] lg:h-[90%] lg:ml-5 flex md:md:flex-col lg:flex-col items-center py-4">
-            <button className="text-sm lg:text-[1rem] w-[90%] h-10 rounded-sm glass glass-button m-1" onClick={() => setSection(1)}>About Me</button>
-            <button className="text-sm lg:text-[1rem] w-[90%] h-10 rounded-sm glass glass-button m-1" onClick={() => setSection(2)}>My Time in CSESoc</button>
-            <button className="text-sm lg:text-[1rem] w-[90%] h-10 rounded-sm glass glass-button m-1" onClick={() => setSection(3)}>Experience</button>
-            <button className="text-sm lg:text-[1rem] w-[90%] h-10 rounded-sm glass glass-button m-1" onClick={() => setSection(4)}>Visions & Goals</button>
+            <button className="text-xs md:text-sm lg:text-[1rem] w-[90%] h-10 rounded-sm glass glass-button m-1" onClick={() => setSection(1)}>About Me</button>
+            <button className="text-xs md:text-sm lg:text-[1rem] w-[90%] h-10 rounded-sm glass glass-button m-1" onClick={() => setSection(2)}>My Time in CSESoc</button>
+            <button className="text-xs md:text-sm lg:text-[1rem] w-[90%] h-10 rounded-sm glass glass-button m-1" onClick={() => setSection(3)}>Experience</button>
+            <button className="text-xs md:text-sm lg:text-[1rem] w-[90%] h-10 rounded-sm glass glass-button m-1" onClick={() => setSection(4)}>Visions & Goals</button>
           </div>
 
           <div className="component rounded-sm md:w-[65%] lg:w-full md:h-[90%] lg:h-[90%] h-full lg:mr-5 p-5">

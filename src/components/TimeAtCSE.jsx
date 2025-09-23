@@ -17,8 +17,9 @@ export function TimeAtCSESection() {
       <div className="h-full">
 
         <div className="flex gap-1 border-b border-[#e8e5e4]">
-          <button className={`py-1 w-36 text-sm lg:text-[1rem] lg:py-2 lg:w-50 rounded-t-md glass-tab ${setColor("subcom")}`} onClick={() => setArticleType("subcom")}>Subcom Experience</button>
-          <button className={`py-1 w-36 text-sm lg:text-[1rem] lg:py-2 lg:w-50 rounded-t-md glass-tab ${setColor("director")}`} onClick={() => setArticleType("director")}>Director Experience</button>
+          <button className={`py-1 w-30 text-[0.7rem] lg:text-[1rem] lg:py-2 lg:w-50 rounded-t-md glass-tab ${setColor("subcom")}`} onClick={() => setArticleType("subcom")}>Subcom Experience</button>
+          <button className={`py-1 w-30 text-[0.7rem] lg:text-[1rem] lg:py-2 lg:w-50 rounded-t-md glass-tab ${setColor("director")}`} onClick={() => setArticleType("director")}>Director Experience</button>
+          <button className={`py-1 w-18 text-[0.7rem] lg:text-[1rem] lg:py-2 lg:w-30 rounded-t-md glass-tab ${setColor("events")}`} onClick={() => setArticleType("events")}>Events</button>
         </div>
 
         <article className="p-2 h-full w-full">
@@ -123,6 +124,52 @@ export function TimeAtCSESection() {
               </div>
               </>
             )}
+
+
+            {articleType === "events" && (
+              <>
+                <p className="text-[0.5rem] lg:text-sm w-full">Here are some of my favourite photos from Outreach events!</p>
+
+                <div className="flex flex-col gap-2 md:gap-2 lg:gap-4 w-full p-2 justify-center items-center">
+                  <div className="flex gap-2 md:gap-2 lg:gap-4">
+                    <div className="flex-1 flex flex-col gap-1 items-center">
+                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="newPride.JPG"></img>
+                      <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Working together as a team to find the optimal solution in making fairy bread for Pride Creation Station 2024</p>
+                    </div>
+                    
+                    <div className="flex-1 flex flex-col gap-1 items-center">
+                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="saikiCupcake.jpg"></img>
+                      <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Me, super proud of my Saiki K cupcake at Pride Papa's Bakeria (☆☐☆) !!</p>
+                    </div>
+
+                    <div className="flex-1 flex flex-col gap-1 items-center">
+                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="rainbowSubcom.jpg"></img>
+                      <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Outreach 2025 under a Double Rainbow (super faint) </p>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2 md:gap-2 lg:gap-4">
+                    <div className="flex-1 flex flex-col gap-1 items-center">
+                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="morningFlowers.JPG"></img>
+                      <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Subbies at Flemington Flower Markets picking up bouquets for Flower Exchange</p>
+                    </div>
+
+                    <div className="flex-1 flex flex-col gap-1 items-center">
+                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="postgradWatch.png"></img>
+                      <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Listening to postgrad lecturers' experiences at Postgrad Drinks</p>
+                    </div>
+
+                    <div className="flex-1 flex flex-col gap-1 items-center">
+                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="multi.png"></img>
+                      <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Hard at work under the rain for Multicultural BBQ 2025 !</p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </>
+            )}
+
           </div>
         </article>
       </div>

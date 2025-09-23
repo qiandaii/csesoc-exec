@@ -17,6 +17,7 @@
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  cursor: pointer;
 }
 
 .glass-tab {
@@ -25,6 +26,7 @@
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   isolation: isolate;
+  cursor: pointer;
 }
 
 .glass-tab:hover {
@@ -49,9 +51,11 @@
 .boo:hover {
   box-shadow: 0 0 30px 0 rgba(58, 227, 230, 0.411);
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .event:hover {
   box-shadow: 0 0 10px 0 rgba(58, 227, 230, 0.83);
   transform: scale(1.1);
+  cursor: pointer;
 }
