@@ -94,7 +94,7 @@ export function TimeAtCSESection() {
 
                 <p className="lg:pt-6 text-[0.65rem] md:text-[0.5rem] lg:text-[0.85rem] font-bold text-[#57a8a3] pb-2">You may have walked by or joined in on some events that I've helped run in 2025...</p>  
 
-                <div className="flex flex-col md:flex-row lg:flex-row gap-4 w-full justify-center">
+                <div className="flex flex-col md:flex-row lg:flex-row gap-4 w-full justify-center items-center">
 
                   <div className="flex gap-4">
                     <div className="w-35 md:w-20 lg:w-38 flex flex-col gap-2">
