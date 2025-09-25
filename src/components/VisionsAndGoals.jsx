@@ -10,7 +10,7 @@ export function VisionsAndGoalsSection() {
           <span>focus on:</span>
         </div>
 
-        <div className="text-[0.65rem] md:text-[0.45rem] lg:text-[0.7rem]">
+        <div className="text-[0.6rem] md:text-[0.45rem] lg:text-[0.7rem]">
           <p className="bg-[#a48a75] font-bold text-white px-1 mb-2">Creating an inclusive and welcoming environment for all</p>
           <p className="ml-4">
             ⋆ Prioritise feedback from the CSE student community, ensuring that all voices are heard and all enquiries are met
@@ -21,7 +21,7 @@ export function VisionsAndGoalsSection() {
           </p>
         </div>
 
-        <div className="text-[0.65rem] md:text-[0.45rem] lg:text-[0.7rem]">
+        <div className="text-[0.6rem] md:text-[0.45rem] lg:text-[0.7rem]">
           <p className="bg-[#a48a75] font-bold text-white px-1 mb-2">Empowering the push for a greater diversity and balance of events</p>
           <p className="ml-4">
             ⋆ Distribute CSESoc's efforts and expenses across a wide assortment of events, to retain a well-rounded balance of social and technical activities and programs for all students, and...
@@ -32,7 +32,7 @@ export function VisionsAndGoalsSection() {
             </p>
         </div>
 
-        <div className="text-[0.65rem] md:text-[0.45rem] lg:text-[0.7rem]">
+        <div className="text-[0.6rem] md:text-[0.45rem] lg:text-[0.7rem]">
           <p className="bg-[#a48a75] font-bold text-white px-1 mb-2">Representing and Supporting the Society</p>
           <p className="ml-4">
             ⋆ Maintain our external connections and partnerships that have helped CSESoc run as a society, along with strengthening our internal and interport relations to establish successful team collaborations
