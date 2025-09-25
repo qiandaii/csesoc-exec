@@ -17,9 +17,9 @@ export function TimeAtCSESection() {
       <div className="h-full">
 
         <div className="flex gap-1 border-b border-[#e8e5e4]">
-          <button className={`py-1 w-30 text-[0.7rem] lg:text-[1rem] lg:py-2 lg:w-50 rounded-t-md glass-tab ${setColor("subcom")}`} onClick={() => setArticleType("subcom")}>Subcom Experience</button>
-          <button className={`py-1 w-30 text-[0.7rem] lg:text-[1rem] lg:py-2 lg:w-50 rounded-t-md glass-tab ${setColor("director")}`} onClick={() => setArticleType("director")}>Director Experience</button>
-          <button className={`py-1 w-18 text-[0.7rem] lg:text-[1rem] lg:py-2 lg:w-30 rounded-t-md glass-tab ${setColor("events")}`} onClick={() => setArticleType("events")}>Events</button>
+          <button className={`py-1 w-26 text-[0.6rem] lg:text-[1rem] lg:py-2 lg:w-50 rounded-t-md glass-tab ${setColor("subcom")}`} onClick={() => setArticleType("subcom")}>Subcom Experience</button>
+          <button className={`py-1 w-26 text-[0.6rem] lg:text-[1rem] lg:py-2 lg:w-50 rounded-t-md glass-tab ${setColor("director")}`} onClick={() => setArticleType("director")}>Director Experience</button>
+          <button className={`py-1 w-17 text-[0.6rem] lg:text-[1rem] lg:py-2 lg:w-30 rounded-t-md glass-tab ${setColor("events")}`} onClick={() => setArticleType("events")}>Events</button>
         </div>
 
         <article className="p-2 h-full w-full">
@@ -46,23 +46,23 @@ export function TimeAtCSESection() {
 
                 <div className="flex lg:flex-row md:flex-row flex-col gap-4 w-full justify-center">
                   <div className="flex gap-4 justify-center">
-                    <div className="w-35 md:w-20 lg:w-38 flex flex-col gap-2">
-                      <img src="pride.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-35 object-cover event" alt="Pride Creation Station - Painting Canvas and Totes"></img>
+                    <div className="w-34 md:w-20 lg:w-38 flex flex-col gap-2">
+                      <img src="pride.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-34 object-cover event" alt="Pride Creation Station - Painting Canvas and Totes"></img>
                       <p className="text-[0.6rem] md:text-[0.4rem] lg:text-[0.65rem] text-center">Pride Creation Station - Painting Canvas and Totes</p>
                     </div>
-                    <div className="w-35 md:w-20 lg:w-38 flex flex-col gap-2">
-                      <img src="learnToSignBanner.jpg" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-35 object-cover event" alt="Learn to Sign - Sign Language Workshop!"></img>
+                    <div className="w-34 md:w-20 lg:w-38 flex flex-col gap-2">
+                      <img src="learnToSignBanner.jpg" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-34 object-cover event" alt="Learn to Sign - Sign Language Workshop!"></img>
                       <p className="text-[0.6rem] md:text-[0.4rem] lg:text-[0.65rem] text-center">Learn to Sign - Sign Language Workshop!</p>
                     </div>
                   </div>
 
                   <div className="flex gap-4 justify-center">
-                    <div div className="w-35 md:w-20 lg:w-38 flex flex-col gap-2">
-                      <img src="prideSnacks.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-35 object-cover event" alt="Pride Creation Station - Rainbow Snack Platter"></img>
+                    <div div className="w-34 md:w-20 lg:w-38 flex flex-col gap-2">
+                      <img src="prideSnacks.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-34 object-cover event" alt="Pride Creation Station - Rainbow Snack Platter"></img>
                       <p className="text-[0.6rem] md:text-[0.4rem] lg:text-[0.65rem] text-center">Pride Creation Station - Rainbow Snack Platter</p>
                     </div>
-                    <div className="w-35 md:w-20 lg:w-38 flex flex-col gap-2">
-                      <img src="humansOfCse.png" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-35 object-cover event" alt="Humans of CSE - July Edition"></img>
+                    <div className="w-34 md:w-20 lg:w-38 flex flex-col gap-2">
+                      <img src="humansOfCse.png" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-34 object-cover event" alt="Humans of CSE - July Edition"></img>
                       <p className="text-[0.6rem] md:text-[0.4rem] lg:text-[0.65rem] text-center">Humans of CSE - July 2024 Edition</p>
                     </div>
                   </div>
@@ -72,7 +72,7 @@ export function TimeAtCSESection() {
             )}
             {articleType === "director" && (
               <>
-                <p className="text-[0.6rem] md:text-[0.38rem] lg:text-[0.75rem] h-[97.5%] flex flex-col gap-2">
+                <div className="text-[0.6rem] md:text-[0.38rem] lg:text-[0.75rem] h-[97.5%] flex flex-col gap-2">
                   
                   <p>
                     Now, as an Outreach director, my experience has been even more fulfilling, leading my own subcommittee with my codirectors, and overlooking their interesting, genius ideas to foster 
@@ -91,32 +91,32 @@ export function TimeAtCSESection() {
                   </p>
 
                   <p>I would love to continue overseeing these initiatives and more, playing a bigger role in the society's flourish, as a part of the executive team in 2026!</p>
-                </p>
+                </div>
 
                 <p className="lg:pt-6 text-[0.65rem] md:text-[0.5rem] lg:text-[0.85rem] font-bold text-[#57a8a3] pb-2">You may have walked by or joined in on some events that I've helped run in 2025...</p>  
 
                 <div className="flex flex-col md:flex-row lg:flex-row gap-4 w-full justify-center items-center">
 
                   <div className="flex gap-4">
-                    <div className="w-35 md:w-20 lg:w-38 flex flex-col gap-2">
-                      <img src="wheelchair.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-35 object-cover event" alt="Wheelchair Basketball - Midgame"></img>
+                    <div className="w-34 md:w-20 lg:w-38 flex flex-col gap-2">
+                      <img src="wheelchair.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-34 object-cover event" alt="Wheelchair Basketball - Midgame"></img>
                       <p className="text-[0.6rem] md:text-[0.4rem] lg:text-[0.65rem] text-center">Wheelchair Basketball - Midgame</p>
                     </div>
 
-                    <div className="w-35 md:w-20 lg:w-38 flex flex-col gap-2">
-                      <img src="multicultural.jpg" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-35 object-cover event" alt="Multicultural BBQ - Food, Dessert and Drinks!"></img>
+                    <div className="w-34 md:w-20 lg:w-38 flex flex-col gap-2">
+                      <img src="multicultural.jpg" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-34 object-cover event" alt="Multicultural BBQ - Food, Dessert and Drinks!"></img>
                       <p className="text-[0.6rem] md:text-[0.4rem] lg:text-[0.65rem] text-center">Multicultural BBQ - Food, Dessert and Drinks!</p>
                     </div>
                   </div>
 
                   <div className="flex gap-4">
-                  <div className="w-35 md:w-20 lg:w-38 flex flex-col gap-2">
-                    <img src="photobooth.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-35 object-cover event" alt="Lights, Camera, Compile! - Outreach Photoshoot"></img>
+                  <div className="w-34 md:w-20 lg:w-38 flex flex-col gap-2">
+                    <img src="photobooth.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-34 object-cover event" alt="Lights, Camera, Compile! - Outreach Photoshoot"></img>
                     <p className="text-[0.6rem] md:text-[0.4rem] lg:text-[0.65rem] text-center">Lights, Camera, Compile! - Outreach Photoshoot</p>
                   </div>
 
-                  <div className="w-35 md:w-20 lg:w-38 flex flex-col gap-2">
-                    <img src="flowers.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-35 object-cover event" alt="Flower Exchange - Dethorning before handing out"></img>
+                  <div className="w-34 md:w-20 lg:w-38 flex flex-col gap-2">
+                    <img src="flowers.JPG" className="lg:h-26 lg:w-38 md:h-10 md:w-20 h-22 w-34 object-cover event" alt="Flower Exchange - Dethorning before handing out"></img>
                     <p className="text-[0.6rem] md:text-[0.4rem] lg:text-[0.65rem] text-center">Flower Exchange - Dethorning before handing out</p>
                   </div>
                 </div>
@@ -130,37 +130,37 @@ export function TimeAtCSESection() {
               <>
                 <p className="text-[0.5rem] lg:text-sm w-full">Here are some of my favourite photos from Outreach events!</p>
 
-                <div className="flex flex-col gap-2 md:gap-2 lg:gap-4 w-full p-2 justify-center items-center">
+                <div className="flex flex-col gap-2 md:gap-2 lg:gap-4 w-full pt-2 justify-center items-center">
                   <div className="flex gap-2 md:gap-2 lg:gap-4">
                     <div className="flex-1 flex flex-col gap-1 items-center">
-                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="newPride.JPG"></img>
+                      <img className="w-22 h-22 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="newPride.JPG"></img>
                       <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Working together as a team to find the optimal solution in making fairy bread for Pride Creation Station 2024</p>
                     </div>
                     
                     <div className="flex-1 flex flex-col gap-1 items-center">
-                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="saikiCupcake.jpg"></img>
+                      <img className="w-22 h-22 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="saikiCupcake.jpg"></img>
                       <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Me, super proud of my Saiki K cupcake at Pride Papa's Bakeria (☆☐☆) !!</p>
                     </div>
 
                     <div className="flex-1 flex flex-col gap-1 items-center">
-                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="rainbowSubcom.jpg"></img>
+                      <img className="w-22 h-22 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="rainbowSubcom.jpg"></img>
                       <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Outreach 2025 under a Double Rainbow (super faint) </p>
                     </div>
                   </div>
 
                   <div className="flex gap-2 md:gap-2 lg:gap-4">
                     <div className="flex-1 flex flex-col gap-1 items-center">
-                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="morningFlowers.JPG"></img>
+                      <img className="w-22 h-22 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="morningFlowers.JPG"></img>
                       <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Subbies at Flemington Flower Markets picking up bouquets for Flower Exchange</p>
                     </div>
 
                     <div className="flex-1 flex flex-col gap-1 items-center">
-                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="postgradWatch.png"></img>
+                      <img className="w-22 h-22 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="postgradWatch.png"></img>
                       <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Listening to postgrad lecturers' experiences at Postgrad Drinks</p>
                     </div>
 
                     <div className="flex-1 flex flex-col gap-1 items-center">
-                      <img className="w-23 h-23 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="multi.png"></img>
+                      <img className="w-22 h-22 md:w-25 md:h-18 lg:w-45 lg:h-30 object-cover event" src="multi.png"></img>
                       <p className="text-[0.4rem] lg:text-[0.6rem] md:text-[0.4rem] text-center">Hard at work under the rain for Multicultural BBQ 2025 !</p>
                     </div>
 

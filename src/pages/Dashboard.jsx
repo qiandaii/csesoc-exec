@@ -40,11 +40,11 @@ export function Dashboard() {
             <BannerPattern></BannerPattern>
           </div>
           <div className="user relative mt-100 m-2 md:m-6 lg:m-8 flex flex-between items-end gap-2 md:gap-6 lg:gap-10 z-10">
-            <div className="flex gap-4 md:gap-6 lg:gap-10 items-end">
+            <div className="flex gap-2 md:gap-6 lg:gap-10 items-end">
               <img src="profilePic.png" className="w-16 h-16 md:w-30 md:h-30 lg:w-40 lg:h-40 bg-[#97ccc9] rounded-md border border-4 md:border-6 lg:border-8 border-white boo"></img>
               <div className="">
-                <p className="text-lg md:text-2xl lg:text-4xl  hover:scale-105">Qiandai Huang</p>
-                <p className="text-[#5e4b3b] text-[0.4rem] md:text-[0.5rem] lg:text-[0.6rem]">vote me #1 for copres & treasurer !</p>
+                <p className="text-[1rem] md:text-2xl lg:text-4xl  hover:scale-105">Qiandai Huang</p>
+                <p className="text-[#5e4b3b] text-[0.35rem] md:text-[0.5rem] lg:text-[0.6rem]">vote me #1 for copres & treasurer !</p>
               </div>
             </div>
             <div className="flex justify-end ml-auto gap-2">

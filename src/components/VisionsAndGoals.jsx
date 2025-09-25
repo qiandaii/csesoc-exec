@@ -4,9 +4,8 @@ export function VisionsAndGoalsSection() {
   return (
     <>
       <div className="flex flex-col gap-4">
-        <div className="text-[1rem] md:text-[0.5rem] lg:text-[1rem]">
+        <div className="text-[0.8rem] md:text-[0.5rem] lg:text-[1rem]">
           <span>CSESoc exists to serve as a connection point for all students in the faculty, which is why my </span>
-          <br></br>
           <span className="font-bold text-[#5e4b3b]">Visions & Goals for the Society </span>
           <span>focus on:</span>
         </div>
